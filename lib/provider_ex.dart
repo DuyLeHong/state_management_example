@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.green[200],
                 child: Builder(
                   builder: (BuildContext context) {
-                    return RaisedButton(
+                    return ElevatedButton(
                       child: Text('Do something 123'),
                       onPressed: () {
                         Provider.of<MyModel>(context, listen: false)
